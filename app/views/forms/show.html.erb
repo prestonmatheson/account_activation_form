@@ -1,0 +1,7 @@
+<h1>HELLO WORLD</h1>
+
+<%= form_tag("/search", method: "get") do %>
+  <%= label_tag(:q, "activate account for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Submit") %>
+<% end %>
